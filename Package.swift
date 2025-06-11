@@ -11,6 +11,10 @@ let package = Package(
             name: "TCMPPSDK",
             targets: ["TCMPPSDKWrapper"]
         ),
+        .library(
+            name: "TCMPPSDKWrapper",
+            targets: ["TCMPPSDKWrapper"]
+        ),
     ],
     dependencies: [
         .package(url: "https://github.com/robbiehanson/CocoaAsyncSocket", from: "7.6.4"),
