@@ -184,9 +184,8 @@ typedef NS_ENUM(NSInteger, TMAToastIconType) {
 @end
 
 @interface TMASheetActionParams : NSObject
-@property (nonatomic, copy) NSString *appId;
-@property (nonatomic, copy) NSString *imageUrl;
-@property (nonatomic, assign) NSUInteger shareTarget;
+
+@property (nonatomic, copy) NSString *menuId;
 
 @end
 
@@ -203,6 +202,7 @@ typedef NS_ENUM(NSInteger, TMAToastIconType) {
 @property (nonatomic, copy) NSString *shareKey;
 @property (nonatomic, strong) UIImage *icon;
 @property (nonatomic, strong) UIColor *titleColor;
+@property (nonatomic, copy) NSString *menuId;
 @property (nonatomic, assign) BOOL isHidden;
 
 @property (nonatomic, copy, nullable) NSString *accessibilityLabel;

@@ -87,10 +87,6 @@ NS_ERROR_ENUM(TMAMiniAppErrorDomain)
     // User canceled code scanning
     TMAMiniAppErrorScanCodeCancel               = -21104,
     
-    // 二维码已过期
-    // The QR code has expired
-    TMAMiniAppErrorScanCodeExpired               = -21105,
-    
     // 小程序基础库下载失败
     // Mini program base library download failed
     TMAMiniAppErrorJSSDKDownloadFail              = -22001,
