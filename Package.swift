@@ -11,6 +11,11 @@ let package = Package(
             name: "TCMPPSDK",
             targets: ["TCMPPSDK"]),
     ],
+    dependencies: [
+        // 添加依赖库，例如：
+        // .package(url: "https://github.com/Alamofire/Alamofire.git", from: "5.0.0"),
+        // .package(url: "https://github.com/SDWebImage/SDWebImage.git", from: "5.0.0"),
+    ],
     targets: [
         .binaryTarget(
             name: "TCMPPSDK",
