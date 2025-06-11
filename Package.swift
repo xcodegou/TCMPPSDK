@@ -5,7 +5,6 @@ let package = Package(
     name: "TCMPPSDK",
     platforms: [
         .iOS(.v12),
-        .macOS(.v10_15)
     ],
     products: [
         .library(
