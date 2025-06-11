@@ -9,7 +9,8 @@ let package = Package(
     products: [
         .library(
             name: "TCMPPSDK",
-            targets: ["TCMPPSDK"]),
+            targets: ["TCMPPSDKWrapper"]
+        ),
     ],
     dependencies: [
         .package(url: "https://github.com/robbiehanson/CocoaAsyncSocket", from: "7.6.4"),
@@ -26,6 +27,21 @@ let package = Package(
         .binaryTarget(
             name: "TCMPPSDK",
             path: "Sources/TCMPPSDK/TCMPPSDK.xcframework"
+        ),
+        .target(
+            name: "TCMPPSDKWrapper",
+            dependencies: [
+                "TCMPPSDK",
+                .product(name: "CocoaAsyncSocket", package: "CocoaAsyncSocket"),
+                .product(name: "MJRefresh", package: "MJRefresh"),
+                .product(name: "ZipArchive", package: "ZipArchive"),
+                .product(name: "Brotli", package: "Brotli"),
+                .product(name: "MQQComponents", package: "MQQComponents"),
+                .product(name: "PromiseObjC", package: "PromiseObjC"),
+                .product(name: "TMFShark", package: "TMFShark"),
+                .product(name: "SocketRocket", package: "SocketRocket"),
+                .product(name: "Tars", package: "Tars"),
+            ]
         )
     ]
 ) 
