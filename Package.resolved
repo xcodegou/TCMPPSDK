@@ -1,0 +1,34 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "CocoaAsyncSocket",
+        "repositoryURL": "https://github.com/robbiehanson/CocoaAsyncSocket",
+        "state": {
+          "branch": null,
+          "revision": "dbdc00669c1ced63b27c3c5f052ee4d28f10150c",
+          "version": "7.6.5"
+        }
+      },
+      {
+        "package": "MJRefresh",
+        "repositoryURL": "https://github.com/CoderMJLee/MJRefresh.git",
+        "state": {
+          "branch": null,
+          "revision": "535d39c86e592d73f8b8e75f9bf1eda62ca4a4ce",
+          "version": "3.7.9"
+        }
+      },
+      {
+        "package": "ZipArchive",
+        "repositoryURL": "https://github.com/ZipArchive/ZipArchive.git",
+        "state": {
+          "branch": null,
+          "revision": "df35718ea19a94e015b91dc4881dee028ce4cdba",
+          "version": "2.6.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

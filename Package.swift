@@ -12,9 +12,9 @@ let package = Package(
             targets: ["TCMPPSDK"]),
     ],
     dependencies: [
-        // 添加依赖库，例如：
-        // .package(url: "https://github.com/Alamofire/Alamofire.git", from: "5.0.0"),
-        // .package(url: "https://github.com/SDWebImage/SDWebImage.git", from: "5.0.0"),
+        .package(url: "https://github.com/robbiehanson/CocoaAsyncSocket", from: "7.6.4"),
+        .package(url: "https://github.com/CoderMJLee/MJRefresh.git", from: "3.7.9"),
+        .package(url: "https://github.com/ZipArchive/ZipArchive.git", from: "2.6.0")
     ],
     targets: [
         .binaryTarget(
