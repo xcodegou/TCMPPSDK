@@ -5,8 +5,8 @@
         "package": "Brotli",
         "repositoryURL": "https://github.com/xcodegou/Brotli.git",
         "state": {
-          "branch": "main",
-          "revision": "c4f4eb9472e25d128279df83db2c11c44b0156ea",
+          "branch": "master",
+          "revision": "63d97af69fdc0b505c908a9137c5b0210facf9eb",
           "version": null
         }
       },
@@ -42,7 +42,7 @@
         "repositoryURL": "https://github.com/xcodegou/PromiseObjC.git",
         "state": {
           "branch": "main",
-          "revision": "82408b3aba4ea2001784d4b62ae2280e9bf54a02",
+          "revision": "1b2f0c6554eedc2625d747cb6f96c9375642e50a",
           "version": null
         }
       },
@@ -50,8 +50,17 @@
         "package": "SocketRocket",
         "repositoryURL": "https://github.com/xcodegou/SocketRocket.git",
         "state": {
-          "branch": "main",
-          "revision": "a1a98a9486adb613b3ee454572e4c2d29f9e5e63",
+          "branch": "master",
+          "revision": "233d821d567ebc2815692e849a3665697106ad80",
+          "version": null
+        }
+      },
+      {
+        "package": "SSZipArchive",
+        "repositoryURL": "https://github.com/xcodegou/SSZipArchive.git",
+        "state": {
+          "branch": "master",
+          "revision": "82ffb564a6d663cf03d5d9b2ffb4db22e9bf2fee",
           "version": null
         }
       },
@@ -71,15 +80,6 @@
           "branch": "main",
           "revision": "f0215b90b16546a2da513ffd2492eb1ce4a21c34",
           "version": null
-        }
-      },
-      {
-        "package": "ZipArchive",
-        "repositoryURL": "https://github.com/ZipArchive/ZipArchive.git",
-        "state": {
-          "branch": null,
-          "revision": "df35718ea19a94e015b91dc4881dee028ce4cdba",
-          "version": "2.6.0"
         }
       }
     ]
