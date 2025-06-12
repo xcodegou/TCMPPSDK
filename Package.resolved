@@ -33,7 +33,7 @@
         "repositoryURL": "https://github.com/xcodegou/MQQComponents.git",
         "state": {
           "branch": "main",
-          "revision": "8fc91a2400c77e9ba091f05f0212ba5891e49437",
+          "revision": "e1d113acd2d784abad25fc0a22711da8d1626cb1",
           "version": null
         }
       },
@@ -60,7 +60,7 @@
         "repositoryURL": "https://github.com/xcodegou/SSZipArchive.git",
         "state": {
           "branch": "master",
-          "revision": "86433c8f871080d4fa417b29da73dfd47707574c",
+          "revision": "fdb08f32192c58676c0d16dba185d4019119385f",
           "version": null
         }
       },
