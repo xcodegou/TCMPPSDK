@@ -6,7 +6,7 @@
 // 
 #import <Foundation/Foundation.h>
 
-#define TCMPPSDK_VERSION @"2.2.7"
+#define TCMPPSDK_VERSION @"2.2.7.219"
 
 //! Project version number for TCMPPSDK.
 FOUNDATION_EXPORT double TCMPPSDKVersionNumber;

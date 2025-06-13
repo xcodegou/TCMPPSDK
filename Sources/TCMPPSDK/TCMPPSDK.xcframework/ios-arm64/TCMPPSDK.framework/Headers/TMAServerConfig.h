@@ -10,6 +10,8 @@ NS_ASSUME_NONNULL_BEGIN
 @interface TMAServerConfig : NSObject
 
 @property (nonatomic, copy, readonly) NSString *customID;
+@property (nonatomic, copy, readonly) NSString *productKey;
+@property (nonatomic, copy, readonly) NSString *HTTPURL;
 @property (nonatomic, copy, readonly) NSString *bundleID;
 
 @property (nonatomic, assign, readonly) NSInteger productId;
