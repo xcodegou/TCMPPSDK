@@ -47,15 +47,6 @@
         }
       },
       {
-        "package": "SSZipArchive",
-        "repositoryURL": "https://github.com/xcodegou/SSZipArchive.git",
-        "state": {
-          "branch": "master",
-          "revision": "fdb08f32192c58676c0d16dba185d4019119385f",
-          "version": null
-        }
-      },
-      {
         "package": "Tars",
         "repositoryURL": "https://github.com/xcodegou/Tars.git",
         "state": {
