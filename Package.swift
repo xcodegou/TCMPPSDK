@@ -41,7 +41,8 @@ let package = Package(
                 .product(name: "PromiseObjC", package: "PromiseObjC"),
                 .product(name: "SocketRocket", package: "SocketRocket"),
                 .product(name: "Tars", package: "Tars"),
-            ]
+            ],
+            resources: [.process("TMFMiniAppSDK.bundle")]
         )
     ]
 ) 
