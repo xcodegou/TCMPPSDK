@@ -42,7 +42,7 @@ let package = Package(
                 .product(name: "SocketRocket", package: "SocketRocket"),
                 .product(name: "Tars", package: "Tars"),
             ],
-            resources: [.process("TMFMiniAppSDK.bundle")]
+            resources: [.copy("TMFMiniAppSDK.bundle")]
         )
     ]
 ) 
